@@ -1,0 +1,101 @@
+<head>
+    <title>Taskio</title>
+    <meta charset = "utf-8">
+    <meta name = "Task Interact" content = "The first interactive task wesbite">
+
+    <!-- Links to CSS file-->
+    <link href="css/style.css" type = "text/css" rel="stylesheet">
+
+    <!-- Link to the site icon -->
+    <link rel="icon" href="/Users/rudrajadav/Documents/HTML/Interative TO-DO list/TASKIO.png" type="image/png">
+    
+</head>
+
+
+<body>
+    <img src = "TASKIO.png" alt = "Brand image" title ="TASKIO">
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('home-content')">Home</a></li>
+            <li><a herf = "#" onclick="showSection('about-content')">About</a></li>
+            <li><a href="#" onclick="showSection('contact-content')">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+
+    <div id="home-content" class="section show">
+        <h1 class = "centering">Welcome to Taskio :)</h1>
+
+    <div class = "topbutton">
+        <label for="Task">Please enter the task on this textbox:</label>
+        <input type="text" id="taskInput" name="Tasks" placeholder="Get milk">
+
+        <button id="button">Add</button>
+        <button id = "deleteall">Delete all</button>
+    </div>
+
+
+
+        <div id = "task-pad">
+        </div>
+        <label for="Task">If you task is completed, please enter the number opposite to the task to remove it</label>
+        <input type="number" id = "deleteTask" name = "Tasksdel" placeholder = "0" min = "0">
+
+        <button id = "deleteButton">Delete Task</button>
+        
+    </div>
+
+    <div id="about-content" class = "section">
+        <p class = "paras">
+            Greetings! I am a dedicated university student, eager to embark on an exciting journey of learning and growth. As I delve into the world of academia, I find myself driven by a fervent passion for innovation and creativity. <br>
+            <br>
+
+Throughout my academic pursuits, I have been honing my skills and expanding my knowledge in various fields. Being a keen learner, I embrace challenges with an open mind, constantly seeking opportunities to enrich my understanding of the world around me. <br>
+<br>
+
+My first project marks a significant milestone in my educational journey. It is an endeavor born out of curiosity, where I aim to merge theoretical knowledge with practical application. This project holds a special place in my heart as it reflects my dedication to making a positive impact on the world through innovation and problem-solving. 
+<br>
+<br>
+
+Beyond the academic realm, I indulge in various hobbies that allow me to express my creativity and unwind. I believe that a well-rounded personality is the key to holistic growth, and I am always eager to explore new avenues.<br>
+<br>
+
+As I move forward, I aspire to be an agent of change, contributing to society by leveraging my skills and knowledge. I see myself collaborating with like-minded individuals, forming a network of innovative minds dedicated to creating a brighter future.<br>
+<br>
+
+Join me on this incredible journey of self-discovery and exploration as I venture into the world of possibilities. Together, let's push the boundaries of knowledge, challenge conventions, and make a lasting impact on the world. <br>
+<br>
+
+Thank you for being a part of my journey, and I look forward to sharing my experiences and learning from yours as well!<br>
+<br>
+        </p>
+
+        <p id = "desig">Rudra Jadav</p>
+    </div>
+
+    <div id="contact-content" class="section">
+        <h1>Welcome to our Contact Us page! </h1>
+        <p class = "paras">
+
+ We are thrilled to hear from you and eager to address any inquiries, feedback, or collaboration opportunities you may have. As a team of dedicated university students working on our first project, we value your engagement and support. <br>
+
+Feel free to reach out to us using the contact details provided below or by filling out the contact form: <br>
+
+Contact Information: <br>
+<br>
+Email: rudrajadav2111@gmail.com <br>
+Phone: +44 7443990015<br>
+Address: Doha, Qatar<br>
+<br>
+
+Whether you have questions about our project, suggestions for improvement, or want to explore potential partnerships, we're all ears! Our team is committed to providing prompt and helpful responses to ensure your experience with us is exceptional.<br>
+
+If you are interested in staying updated on our progress, consider subscribing to our newsletter or following us on social media. We look forward to connecting with you and making this journey a collaborative and enriching experience for everyone involved.<br>
+
+Thank you for visiting our Contact Us page, and we eagerly await the opportunity to connect with you soon!<br>
+        </p>
+    </div>
+
+</body>
+<script src = "scripts/main.js"></script>
+</html>
